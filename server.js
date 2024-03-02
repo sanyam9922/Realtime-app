@@ -1,4 +1,4 @@
-const { App } = require("uWebSockets.js");
+const { App } = require("./uWebSockets.js");
 const { Server } = require("socket.io");
 const uws = new App();
 const express = require("express")
